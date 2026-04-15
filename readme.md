@@ -1,81 +1,81 @@
-# 🧩 Modos do Copiloto (Ask, Edit, Plan, Agent e Study)
+# 🧩 Copilot Modes (Ask, Edit, Plan, Agent, and Study)
 
 ![dio/me](https://img.shields.io/badge/dio-me-ff2d55)
-![IA](https://img.shields.io/badge/IA-Assistente%20Inteligente-blue)
+![AI](https://img.shields.io/badge/IA-Intelligent%20Assistant-blue)
 ![Prompt](https://img.shields.io/badge/Prompt-engineering-yellow)
 
-O Copiloto oferece diferentes **modos de interação** para você escolher como quer trabalhar: desde **tirar dúvidas sem mexer no código**, até **editar trechos específicos**, **planejar mudanças maiores** ou **delegar tarefas mais complexas** com um modo mais autônomo. A ideia é simples: você seleciona o modo que melhor combina com seu objetivo no momento e ganha velocidade com mais controle.
+The Copilot offers different **interaction modes** for you to choose how you want to work: from **asking questions without touching the code**, to **editing specific snippets**, **planning larger changes**, or **delegating more complex tasks** with a more autonomous mode. The idea is simple: you select the mode that best matches your current goal and gain speed with more control.
 
 ---
 
 # ❓ Ask
-O modo **Ask** é para fazer perguntas e entender coisas, **sem alterar seu código**. Você pode perguntar sobre um arquivo específico, um erro, uma função, uma stack trace ou até conceitos gerais.
+The **Ask** mode is for asking questions and understanding things, **without altering your code**. You can ask about a specific file, an error, a function, a stack trace, or even general concepts.
 
-O Copiloto lê o contexto do projeto (arquivos abertos, seleção, etc.) e responde como um **“mentor técnico”**, explicando o que está acontecendo e por quê. **Ele não modifica nada** — só analisa e explica.
+The Copilot reads the project context (open files, selection, etc.) and responds like a **"technical mentor"**, explaining what is happening and why. **It does not modify anything** — it only analyzes and explains.
 
 📄 **Prompt:** [prompts/prompt-ask.md](prompts/prompt-ask.md)
 
 ---
 
 # ✏️ Edit
-O modo **Edit** serve para **alterar código existente**. Você seleciona um trecho (ou um arquivo inteiro), descreve o que quer mudar, e o Copiloto aplica a modificação diretamente.
+The **Edit** mode is used to **change existing code**. You select a snippet (or an entire file), describe what you want to change, and the Copilot applies the modification directly.
 
-Ideal para:
+Ideal for:
 - refactors
-- ajustes de lógica
-- melhoria de performance
-- mudança de estilo
-- conversão de linguagem
-- adicionar logs
-- tratar erros
+- logic adjustments
+- performance improvements
+- style changes
+- language conversion
+- adding logs
+- error handling
 
-Aqui o foco é: **“pegue isso que já existe e transforme”**.
+The focus here is: **"take what already exists and transform it"**.
 
 📄 **Prompt:** [prompts/prompt-edit.md](prompts/prompt-edit.md)
 
 ---
 
 # 🧭 Plan
-Quando você pede algo mais complexo, o Copiloto pode entrar em um modo de **planejamento**, onde ele **pensa e descreve os passos antes de sair codando**.
+When you ask for something more complex, the Copilot can enter a **planning** mode, where it **thinks and describes the steps before it starts coding**.
 
-Ele:
-- divide o problema em etapas
-- explica o que vai fazer
-- só depois executa
+It:
+- breaks the problem down into steps
+- explains what it is going to do
+- only executes afterward
 
-Isso é muito útil para **mudanças grandes**, **novas features** ou quando você quer **validar a abordagem** antes de mexer no código.
+This is very useful for **large changes**, **new features**, or when you want to **validate the approach** before changing the code.
 
 📄 **Prompt:** [prompts/prompt-plan.md](prompts/prompt-plan.md)
 
 ---
 
 # 🤖 Agent
-O **Agent** é o modo mais “autônomo”. Ele pode **navegar pelo projeto**, **criar arquivos**, **modificar múltiplos pontos** e **manter contexto entre passos**, como se fosse um dev júnior trabalhando com você.
+The **Agent** is the most "autonomous" mode. It can **navigate the project**, **create files**, **modify multiple points**, and **keep context between steps**, just like a junior dev working with you.
 
-Você dá um objetivo (ex.: “implemente login com JWT”) e ele decide o que precisa ser feito em vários arquivos para chegar lá.
+You give it a goal (e.g., "implement login with JWT") and it decides what needs to be done across multiple files to get there.
 
 📄 **Prompt:** [prompts/prompt-agent.md](prompts/prompt-agent.md)
 
 ---
 
 # 📚 Study
-O modo **Study** é focado em **aprendizado ativo**, não só em chegar à resposta ou ao código final.
+The **Study** mode is focused on **active learning**, not just getting to the answer or the final code.
 
-Em vez de simplesmente explicar ou executar, ele:
-- ensina e guia o raciocínio
-- destaca conceitos e trade-offs
-- faz perguntas reflexivas
-- avança em progressão gradual de dificuldade
+Instead of simply explaining or executing, it:
+- teaches and guides reasoning
+- highlights concepts and trade-offs
+- asks reflective questions
+- advances in a gradual progression of difficulty
 
-Funciona quase como um **tutor particular**.
+It works almost like a **private tutor**.
 
 📄 **Prompt:** [prompts/prompt-study.md](prompts/prompt-study.md)
 
 ---
 
-# 🧠 Resumo mental rápido
-- **Ask** → entender  
-- **Plan** → planejar antes de agir  
-- **Edit** → mudar código  
-- **Agent** → executar tarefas grandes sozinho  
-- **Study** → entendimento ativo  
+# 🧠 Quick mental summary
+- **Ask** → understand  
+- **Plan** → plan before acting  
+- **Edit** → change code  
+- **Agent** → execute large tasks alone  
+- **Study** → active understanding
