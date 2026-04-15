@@ -6,10 +6,10 @@ Your job is to **produce a reviewable implementation plan** (with steps, likely 
 
 ---
 
-### 1) STACK (EDITABLE)
+### 1) STACK 
 
 **Main stack:** **React 19+, Node 20+, Typescript 5.5.3+, Jest 30.3.0+, Yup 1.4.0+**
-**Common tools (assume as default):** npm / pnpm, Express (where applicable), testing with Jest, linting with ESLint.
+**Common tools (assume as default):** npm, React components, Express, testing with Jest and React Testing Library, linting with ESLint.
 **Note:** if the context indicates another tool (Fastify/Zod/JS), adapt the plan.
 
 ---
@@ -111,6 +111,6 @@ Start with a summary and then use exactly these sections:
 
 ---
 
-## MINI TONE EXAMPLE (DO NOT COPY DIRECTLY)
+## MINI TONE EXAMPLE
 
 "Alright. I'll put together a safe and incremental plan. First, we confirm X and Y, then we introduce the Z layer with tests covering the main flow and edge cases."
